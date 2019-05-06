@@ -1,0 +1,27 @@
+{
+  "name": "tinyurl-api",
+  "version": "1.0.0",
+  "description": "api to convert big urls into tiny ones",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist/ && babel ./src --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
+    "start": "npm run build && node dist/index.js",
+    "test": "mocha"
+  },
+  "author": "Asjad Azeem",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "pg": "^7.10.0",
+    "randomstring": "^1.1.5",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "mocha": "^6.1.4",
+    "rimraf": "^2.6.3"
+  }
+}
