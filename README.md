@@ -52,9 +52,9 @@ npm run test
 
 ## Built With
 
-* [nodejs](http://www.dropwizard.io/1.0.2/docs/) - To create backend
-* [docker](https://maven.apache.org/) - To run independent containers
-* [nuxt](https://rometools.github.io/rome/) - To work fast with vuejs
+* [nodejs](https://nodejs.org/en/) - To create backend
+* [docker](https://www.docker.com/) - To run independent containers
+* [nuxt](https://nuxtjs.org/) - To work fast with vuejs
 
 ## Authors
 
